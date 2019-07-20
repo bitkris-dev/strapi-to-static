@@ -1,0 +1,14 @@
+{
+  "name": "strapi-to-static",
+  "version": "1.0.0",
+  "description": "Fetch your strapi endpoints and save them as static JSON files",
+  "main": "index.js",
+  "author": "Kristian Barrese <kristian.webdeveloper@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^8.1.0",
+    "minimist": "^1.2.0",
+    "node-fetch": "^2.6.0",
+    "rimraf": "^2.6.3"
+  }
+}
