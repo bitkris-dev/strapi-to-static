@@ -2,13 +2,20 @@
   "name": "strapi-to-static",
   "version": "1.0.0",
   "description": "Fetch your strapi endpoints and save them as static JSON files",
-  "main": "index.js",
+  "main": "dist/strapiToStatic.js",
   "author": "Kristian Barrese <kristian.webdeveloper@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "build": "webpack --mode production"
+  },
   "dependencies": {
     "fs-extra": "^8.1.0",
     "minimist": "^1.2.0",
     "node-fetch": "^2.6.0",
     "rimraf": "^2.6.3"
+  },
+  "devDependencies": {
+    "webpack": "^4.36.1",
+    "webpack-cli": "^3.3.6"
   }
 }
