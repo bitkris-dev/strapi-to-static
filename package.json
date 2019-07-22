@@ -1,11 +1,8 @@
 {
   "name": "strapi-to-static",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Fetch your strapi endpoints and save them as static JSON files",
   "main": "dist/strapiToStatic.js",
-  "files": [
-    "dist"
-  ],
   "bin": {
     "strapi-to-static": "./bin/global.js"
   },
