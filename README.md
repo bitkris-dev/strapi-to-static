@@ -18,6 +18,8 @@ Accepted CLI arguments:
 | dir          | string | define your JSON files output directory              |
 | apiURL       | string | the URL in which your strapi server runs             |
 
+<br>
+
 Example of usage:
 
 ```
@@ -25,3 +27,15 @@ strapi-to-static --contentTypes=['news'] --dir=src/data --apiURL=http://localhos
 ```
 
 Then you will have your endpoints exported as single JSON files in the chosen directory.
+
+The best thing is to associate it with a custom "scripts" command in a project's **package.json**, so the output dir is relative to it.
+
+Example:
+
+```
+{
+  "scripts": {
+    "fetch": "strapi-to-static --contentTypes=['news'] --dir=src/data --apiURL=http://localhost:1337",
+  },
+}
+```
