@@ -2,6 +2,8 @@
 
 You can use this little global node utility to fetch your strapi endpoints and save them as static JSON files in a dir of your choice.
 
+The idea behind it has born while needing to embed server contents in a static-generated website. You can then make them dynamic-like triggering strapi-to-static and a re-build.
+
 It's extremely simple and easy to use.
 
 Install globally:
